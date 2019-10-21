@@ -1,0 +1,13 @@
+#video {
+  margin-top: 50px;
+  position: relative;
+}
+
+#video iframe {
+  width: 853;
+  height: 480;
+}
+
+#video .contenedor{
+  position: absolute;
+}

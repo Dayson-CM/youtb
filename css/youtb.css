@@ -1,0 +1,54 @@
+.contenedor1{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.menu{
+    background-color: yellow;
+}
+.play{
+    background-color: rgb(19, 17, 17);
+}
+.play-datos{
+    background-color: rgb(170, 161, 161);
+}
+.recomendados{
+    background-color: rgb(102, 99, 93);
+    color: white;
+}
+.comentarios{
+    background-color:rgb(25, 83, 78);
+}
+ @media(min-width:700px){
+    .contenedor1{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: repeat(5,1fr);
+    }
+    .play{       
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+
+    }
+    .play-datos{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+
+    }
+    .comentarios{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .recomendados{
+        grid-column-start: 2;
+        grid-column-end: -1;
+        grid-row-start: 1;
+        grid-row-end: -1;
+    }
+}

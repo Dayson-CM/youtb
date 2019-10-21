@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/youtb2.css">
+    <title>YouTube 2</title>
+
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+</head>
+<body>
+    <div class="contenedor1">
+        <div class="menu1">
+             <header>
+            <div class="contenedor">
+                
+                <h1 class="icon-youtube-play">YouTube</h1>
+                  <span> <input type="text" id="buscar" style="width: 50%; height: 20%;"><button><img src="iconos/lupa,jpg.jpg" style="width: 40px; height: 27px;"></button></span>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                 <nav class="menu">
+                     <a href="">Pagina Principal</a>
+                     <a href="">Tendencias</a>
+                     <a href="">Suscriptores</a>
+                     <a href="">Biblioteca</a>
+                     
+                 </nav>
+            </div>
+        </header>
+    </div>
+        <div class="play">
+                  <video id="video" src="video/Beret - Me vas a ver.mp4" poster="portadas/me vas a ver.jpg"controls width="100%" height="100%"></video>            
+        
+        </div>
+        <div class="play-datos">
+                    <h2>Beret - Me vas a ver </h2>
+                    <p>9,085,709 vistas • Se estrenó el 19 sep. 2019                       
+                        <button class="icon-thumbs-up-alt"  onclick="meGusta()" style=" margin-left : 30%;"><span id="contador">0</span></button>
+                        <button class="icon-thumbs-down-alt" onclick="noGusta()"><span id="descontador">0</span></button>
+                        <img src="iconos/compartir.jpg" style="width: 3%; height: 3%; margin: 0%; padding: 0%;"><button> COMPARTIR</button>
+                        <img src="iconos/guardar.jpg" style="width: 3%; height: 3%; margin: 0%; padding: 0%;"><button> GUARDAR </button> 
+                    </p>  <hr> 
+
+        <h3><img src="iconos/beret.jpg" style="width: 5%; height: 5%;">
+            Beret-Oficial
+            <button style="background-color: rgb(69, 112, 192); border: rgb(59, 59, 85); width: 15%; height: 8%; margin-left : 60%;"><h3> SUSCRIBIRSE</h3> </button></h3> 
+        <h5>2.95 M suscriptores</h5>
+        <p>
+                Beret - Me vas a ver (Lyric Video) <br>
+                 Ya disponible en: https://WarnerMusicSpain.lnk.to/Mevas...
+        </p>
+        </div>
+        <div class="publicidad">
+           <br><br>
+            <body onload="iniciar()">
+           <button class="cerrar" onclick="cerrar()">X</button>
+           <img id="m" src="publicidad/oeshle2.jpg">
+           
+        </div>
+        <div class="recomendados">
+                <div class="vid">   
+                      <iframe class="newvideo"
+                        src="https://www.youtube.com/embed/6gAo8Y---KI" 
+                         allow="accelerometer;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <div class="infvid" >
+                           <p>  <h4>Beret:</h4><br>
+                           <h5>100 millones</h5><br>
+                           <h5>lo siento</h5><br>
+                           <h5>21M</h5>  </p>
+                      </div>
+                </div>
+                <div class="vid">   
+                    <iframe class="newvideo"src="https://www.youtube.com/embed/azfKhDMIrZo" 
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="infvid"> 
+                        <p>  <h4>Beret:</h4><br>
+                          <h5>100 millones</h5><br>
+                          <h5>lo siento</h5><br>
+                          <h5>21M</h5>  </p>
+                    </div>
+              </div>
+              <div class="vid">   
+                <iframe class="newvideo"src="https://www.youtube.com/embed/Of-7fGbcfvI" 
+                 allow="accelerometer;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="infvid"> 
+                    <p>  <h4>Beret:</h4><br>
+                      <h5>100 millones</h5><br>
+                      <h5>lo siento</h5><br>
+                      <h5>21M</h5>  </p>
+                </div>
+              </div>       
+              <div class="vid">   
+                <iframe class="newvideo" src="https://www.youtube.com/embed/2EUPxEHfXqY" 
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="infvid">
+                    <p>  <h4>Beret:</h4><br>
+                      <h5>100 millones</h5><br>
+                      <h5>lo siento</h5><br>
+                      <h5>21M</h5>  </p> </div>
+              </div> 
+              <div class="vid">   
+                <iframe class="newvideo" src="https://www.youtube.com/embed/pg8fSnbw6W4" 
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="infvid">
+                    <p>  <h4>Beret:</h4><br>
+                      <h5>100 millones</h5><br>
+                      <h5>lo siento</h5><br>
+                      <h5>21M</h5>  </p> </div>
+              </div>
+              <div class="vid">   
+                <iframe class="newvideo" src="https://www.youtube.com/embed/00z6AYpJZ7o" 
+                 allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="infvid"> 
+                    <p>  <h4>Beret:</h4><br>
+                      <h5>100 millones</h5><br>
+                      <h5>lo siento</h5><br>
+                      <h5>21M</h5>  </p>
+                </div>
+              </div>
+              <div class="vid">   
+                <iframe class="newvideo" src="https://www.youtube.com/embed/PIFXJ4XQX4E"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="infvid">
+                    <p>  <h4>Beret:</h4><br>
+                      <h5>100 millones</h5><br>
+                      <h5>lo siento</h5><br>
+                      <h5>21M</h5>  </p> </div>
+              </div>
+            </div>
+        <div class="comentarios">
+            <span class="cmt">
+                <img src="iconos/cmt1.jpg">Dulce M ___ (Hace 1 semana)<br>
+                Es de esas canciones tan bonitas, que deseas que dure el doble de minutos...♡ <br>
+                <button class="icon-thumbs-up-alt"  onclick="meGusta1()"><span id="contador_1">0</span></button>
+                <button class="icon-thumbs-down-alt" onclick="noGusta1()"><span id="descontador_1">0</span></button>RESPONDER
+            </span>
+            <br>
+            <span class="cmt">
+                        <img src="iconos/cmt3.jpg">Lidya Scarlet __ (Hace 5 días)<br>
+                        "Me Lo pensé dos veces y te elegí las dos"<br>
+                        <button class="icon-thumbs-up-alt"  onclick="meGusta2()"><span id="contador_2">0</span></button>
+                        <button class="icon-thumbs-down-alt" onclick="noGusta2()"><span id="descontador_2">0</span></button>RESPONDER
+            </span>
+        </div>
+    </div>
+
+    
+
+    <script type="text/javascript">
+        function mostrar(){
+               document.getElementById("parrafo").style.visibility="visible";
+        
+            }   
+        function ocultar(){
+              document.getElementById("parrafo").style.visibility="hidden";
+            }
+                                 
+        function meGusta(){
+        
+        var s =document.getElementById("contador").innerHTML;
+        
+        var n=Number(s); 
+        
+        var nn=n+1;
+        document .getElementById("contador").innerHTML=nn;
+        }
+        
+        function noGusta(){
+        var s =document.getElementById("descontador").innerHTML;
+        
+        var n=Number(s); 
+        
+        var nn=n+1;
+        document .getElementById("descontador").innerHTML=nn;
+        }
+        function meGusta1(){
+        
+        var s =document.getElementById("contador_1").innerHTML;
+        
+        var n=Number(s); 
+        
+        var nn=n+1;
+        document .getElementById("contador_1").innerHTML=nn;
+        }
+        
+        function noGusta1(){
+        var s =document.getElementById("descontador_1").innerHTML;
+        
+        var n=Number(s); 
+        
+        var nn=n+1;
+        document .getElementById("descontador_1").innerHTML=nn;
+        }
+        function meGusta2(){
+        
+        var s =document.getElementById("contador_2").innerHTML;
+        
+        var n=Number(s); 
+        
+        var nn=n+1;
+        document .getElementById("contador_2").innerHTML=nn;
+        }
+        
+        function noGusta2(){
+        var s =document.getElementById("descontador_2").innerHTML;
+        
+        var n=Number(s); 
+        
+        var nn=n+1;
+        document .getElementById("descontador_2").innerHTML=nn;
+        }
+        
+        var ad1, dm, sw;
+	function iniciar(){
+		sw=false;
+		dm = document.getElementById("m");
+		ad1 = setInterval(cambiar,1500);//dispara la repeticion de cambiar cada 1500milisegundos
+		}
+	function cambiar(){
+		if (sw) {
+			dm.src= "publicidad/oeshle2.jpg";
+		}else{
+			dm.src= "publicidad/riplay1.jpg";		}
+		sw=!sw;
+	}
+	function cerrar(){
+		clearInterval(ad1);
+		document.getElementsByClassName("publicidad").style.display="none";
+	}
+        
+        </script>
+    
+</body>
+
+</html>
